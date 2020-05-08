@@ -1,2 +1,2 @@
-# EIA_SoSe2020
+# Anna_SoSe2020
 Im Rahmen der Veranstaltung EnInAn 
