@@ -1,0 +1,221 @@
+
+
+/*Der Body bekommt das png als Hintergrund, eine Schriftart und der text wird ins Zentrum der Seite plaziert*/
+body{
+    background-image:url(bg.png);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+html {
+    margin:0px;
+}
+/*Der Icon soll sich an einer bestimmten Stelle auf dem Bild befinden.*/
+#facebook {
+    position: relative;
+    border:none;
+    margin:auto;
+    top:-110px;
+    right:90px;
+}
+#facebook:hover{
+    background-color:rgb(207, 223, 175);
+    border:0px;
+    border-radius:5px;
+}
+#facebookzwei {
+    position: relative;
+    border:none;
+    margin:auto;
+    top:-100px;
+    right:50px;
+}
+#facebookzwei:hover{
+    background-color:rgb(207, 223, 175);
+    border:0px;
+    border-radius:5px;
+}
+#facebookdrei {
+    position: relative;
+    border:none;
+    margin:auto;
+    top:-110px;
+    right:50px;}
+    #facebookdrei:hover{
+        background-color:rgb(207, 223, 175);
+        border:0px;
+        border-radius:5px;
+    }
+
+/*Der Navigator soll mach rechts positioniert werden und eine schwarze Box mit schwarzem Inhalt erhalten die gerundet ist*/
+#nav {
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    top:0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+    }
+    #imgkreis {
+        position: relative;
+        top:-20px;
+     
+    }
+    #imgkreiscontact{
+        position:relative;
+        top:-20px;
+
+    }
+    #imgkreisabout{
+        position:relative;
+        top:-20px;
+    }
+/*Die Überschrift soll Grün werden*/
+h2 {
+  color: olivedrab;}
+  /*Die Überschrift "Fotos" soll sich direkt unter dem Anfang des Halbkreises befinden und die Abstände wie auf der Vorlage haben*/
+#h2{
+ border: none;
+ padding: 0px;
+ margin-top: 150px;
+
+  margin-right: 30em;
+  margin-bottom: 30px;
+ }
+ /*Id-Selektor für die Überschrift: Videos*/
+ #h2b {
+     border: none;
+     padding: 0px;
+     margin-top: 160px;
+    
+     margin-right: 27em;
+     margin-bottom:30px;
+ }
+ #h2c{
+    border:none;
+    padding:0px;
+    margin-top:160px;
+    margin-right: 30em;
+    margin-bottom:30;
+}
+/*Das Video soll die Breite von 800px haben*/
+ .video{ 
+     width:800px;
+ }
+
+/*die Liste sollte keine Punkte mehr haben*/
+ul{ 
+    list-style-type:none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;}
+/*Link soll horizontal verlaufen und die einzelnen Links links aneinander geordnet werden*/
+li{ 
+    float: left;
+}
+/*Link in der Navigation und eine Box die eine gewisse Größe besitzt*/
+li a {
+    display: block;
+    color: white;
+    padding: 0px 15px 0px;
+   text-decoration: none;}
+  /*Link soll besonders in Olivegrün hervorgehoben werden*/
+  li a:hover {
+  color:olivedrab;
+  }
+
+
+    #div{
+        resize: vertical;
+    }
+form{
+    width: 370px;
+    padding:30px;
+    border: none;
+}
+.input{
+    background-color:lightgray;
+    color:white;
+    width: 65%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1em;
+    margin-bottom: 16px;
+    margin-right: auto;
+    margin-left: 22em;
+    resize: vertical;}
+
+.inputnachricht{
+    background-color:lightgrey;
+    color:white;
+    width: 100%;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1em;
+    margin-bottom: 16px;
+    margin-right: auto;
+    margin-left: 22em;
+    resize: vertical;}
+
+
+
+#inputbuttom{
+    background-color:lightgray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 5em;
+    margin-right:auto;
+    margin-left: 21em;
+    resize:vertical;
+    }
+
+    p {
+        color:grey;
+        font-size: 1em;
+        font-style: normal;
+        font-family: sans-serif;
+        text-align: initial;
+        
+    }
+
+#pformular{
+    color:grey;
+    width:320px;
+    margin-bottom:2px;
+    margin-left:80%;
+    margin-right:auto;
+    resize:vertical;}
+#pdatenschutz{
+    color:grey;
+    width:320px;
+    margin-top:auto;
+    margin-right:auto;
+    margin-left:80%;
+    resize:vertical;
+}
+::placeholder{color:white}
+#formabout{
+    width: 400px;
+    margin-left:22em;
+}
+#portret{
+    border-radius:8px;
+    display:block;
+   margin-top: 1em;
+   margin-left: 2em;
+   margin-right: 5em;
+    float:right;
+}
+strong {
+    color:olivedrab;
+
+}
