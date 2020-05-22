@@ -1,0 +1,40 @@
+body {
+    background-image: url(stern.png);
+
+}
+.card{
+    background-image: url(wrapperbg.png);
+    width: 600px;
+    height:400px;
+    position:relative;
+      top:120px;
+      left:30%;
+}
+    
+
+.pinguin{
+    position:absolute;
+    bottom:15px;
+    right:-50px;
+}
+
+.shell {
+    position:absolute;
+    bottom:-20px;
+    left:-40px;
+}
+.uberschrift{
+   
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    top:40px;
+    left:70px;
+    
+}
+.text {
+    color:white;
+    position: absolute;
+    top:140px;
+    left: 70px;
+}

@@ -1,0 +1,58 @@
+body {
+    background-image: url(bg.png);
+}
+    
+
+.card{
+    background-image: url(wrapperbg.png);
+    width: 600px;
+    height:400px;
+    position:relative;
+      top:120px;
+      left:30%;
+}
+.muschel1{
+    position:absolute;
+    bottom:50px;
+    left:80px;
+    background-image: url(muschel.png);
+   height:64px;
+   width:70px;
+   transition: all 2s;
+}
+.muschel1:hover{
+    background-image:url(muschel_perle.png);
+}
+.muschel2{
+    background-image: url(muschel.png);
+    position:absolute;
+    bottom:160px;
+    left:200px;
+    height:64px;
+    width:70px;
+   transition:all 2s;
+}
+.muschel2:hover{
+    background-image:url(muschel_perle.png);
+}
+.muschel3 {
+    background-image:url(muschel.png);
+    position:absolute;
+    bottom: 100px;
+    right:190px;
+    height:64px;
+    width:70px;
+    transition:all 2s;
+}
+.muschel3:hover{
+    background-image: url(muschel_perle.png);
+}
+.uberschrift{
+   
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    top:40px;
+    left:70px;
+    
+}

@@ -1,0 +1,64 @@
+body{
+    background-image: url(bg.png);
+}
+
+
+.card{
+    background-image: url(wrapperbg.png);
+    width: 600px;
+    height:400px;
+    position:relative;
+      top:120px;
+      left:30%;
+}
+@font-face {
+    font-family: myfont;
+    src: url(jellyka_delicious_cake-webfont.woff)
+}
+.uberschrift {
+    font-family:myfont;
+    color:white;
+    position: absolute;
+    top: 45px;
+    left: 65px;
+}
+.text {
+    color:white;
+    font-family:myfont;
+    position: absolute;
+    top: 170px;
+    left: 65px;
+}
+.muschel1{
+    position:absolute;
+    width:70px;
+    height:63px;
+    bottom:45px;
+    left: 280px;
+   
+}
+
+.muschel2{
+    position: absolute;
+    width:70px;
+    height:63px;
+    top: 120px;
+    left:90px;
+
+}
+
+.muschel3{
+    position: absolute;
+    width: 70px;
+    height: 63px;
+    top:20px;
+    right:80px;
+}
+
+.fire{
+    background-clip: border-box;
+    position: absolute;
+    bottom:24px;
+    right:24px;
+
+}

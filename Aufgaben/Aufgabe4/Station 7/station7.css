@@ -1,0 +1,25 @@
+body {
+    background-image: url(bg.png);
+
+}
+.card {
+    background-image: url(wrapperbg.png);
+    width: 600px;
+    height:400px;
+    position:relative;
+      top:120px;
+      left:30%;
+}
+
+img[alt=band]{
+    display: inline-block;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+.video{
+    display:inline-block;
+    position:absolute;
+    bottom:75px;
+    right:75px;
+}

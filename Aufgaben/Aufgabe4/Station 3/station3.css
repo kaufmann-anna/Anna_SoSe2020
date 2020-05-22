@@ -1,0 +1,37 @@
+body {
+    background-image: url(lila.png);
+}
+    
+
+.card{
+    background-image: url(wrapper.png);
+    width: 600px;
+    height:400px;
+    position:relative;
+      top:120px;
+      left:30%;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(jellyka_delicious_cake-webfont.woff)
+}
+
+div{
+    font-family: myfont;
+    color:white;
+}
+
+.uberschrift {
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    left:80px;
+}
+
+.text {
+    font-size: 18px;
+    position:absolute;
+    bottom:55px;
+    left:80px;
+}
