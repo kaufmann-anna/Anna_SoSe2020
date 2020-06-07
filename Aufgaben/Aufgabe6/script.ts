@@ -1,4 +1,3 @@
-
 var euro18: number = 4209.3;
 var euro08: number = 4965.7;
 var prozenteu: number = 17.97;
@@ -31,19 +30,26 @@ var anteilsam: number = 4;
 
 var gesWe: number = euro18 + africa18 + asien18 + australia18 + nordam18 + sudam18;
 
+function europe(euro18: number, anteileu: number, prozenteu: number, euro08: number) { 
+    
 console.log("Europa");
 console.log("Die Emission von Europa ist: " + euro18 + " kg CO2");
-/*Um den prozentualen Anteil auszurechenen berechne ich den Wert mal hundert und Teile das Ergebnis durch gesWe. Ich habe den Wert unter var anteilxy vermerkt.*/
 console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit " + anteileu + "%");
-/*Subtrahiere den alten vom neuen Wert. Teile das Ergebnis durch den Wert von alten Wert. Multipliziere das Ergbenis mit 100, um einen Prozentwert zu bekommen. Ich hab den Wert vorher berechnet und in eine variable (var prozentxy) hineingeschrieben.*/
 console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um  " + prozenteu + "% verändert ");
 console.log("2018 im Vergleich zu 2008 sind das " + (euro18 - euro08) + " kg CO2");
+}
+europe(4209.3, 16, 17.97, 4965.7);
+document.querySelector("Image").addEventListener('click', europe);
 
+function africa(africa18: number, anteilaf: number, prozentaf: number, africa08: number) {
 console.log("Africa");
 console.log("Die Emission von Africa ist: " + africa18 + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Africa damit " + anteilaf + "%");
-console.log("Für Africa hat sich 2018 im Vergleich zu 2008 die Emission um " + anteilaf + "% verändert");
+console.log("Für Africa hat sich 2018 im Vergleich zu 2008 die Emission um " + prozentaf + "% verändert");
 console.log("2018 im Vergleich zu 2008 sind das " + (africa18 - africa08) + "kg CO2");
+}
+africa(1235.5, 4, 20.19, 1028);
+
 
 console.log("Asien");
 console.log("Die Emission von Asien ist: " + asien18 + "kg CO2");
