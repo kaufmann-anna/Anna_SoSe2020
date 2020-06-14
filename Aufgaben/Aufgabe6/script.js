@@ -1,4 +1,3 @@
-"use strict";
 var euro18 = 4209.3;
 var euro08 = 4965.7;
 var prozenteu = 17.97;

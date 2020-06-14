@@ -1,0 +1,142 @@
+/*Inspiration von https://t3n.de/news/anleitung-css3-buttons-ohne-grafiken-erstellen-294047/*/
+body {
+    background-color: black;
+}
+    
+li {
+    float:left;
+}
+ul {
+    list-style-type: none;
+}
+#image {
+    margin-left: 47%;
+}
+.list1 {
+   display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:2%;
+}
+
+.list2 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:0.09%;
+}
+
+.list3 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:0.09%;
+}
+.button1 { 
+   background-color: #9097ff;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 12px;
+   position: flex;
+   margin-left: 0px;
+}
+
+.button2 {
+    background-color: #9097ff;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 12px;
+
+}
+
+.button3 {
+    background-color: #9097ff;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.button4 {
+    background-color: #db67d2;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #000;
+}
+
+
+.button5 {
+    background-color: #db67d2;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #000;
+}
+
+
+.button6 {
+    background-color: #db67d2;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #000;
+}
+.button7 {
+    background-color: #db67d2;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #000;
+}
+
+
+.button8 {
+    background-color: #ffb833;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #000;
+}
+
+
+
+.button9 {
+    background-color: #ffb833;
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #000;
+}
