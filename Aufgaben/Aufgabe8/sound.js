@@ -1,4 +1,5 @@
 var sounds1 = ["A.mp3", "C.mp3", "F.mp3", "G.mp3", "hihat.mp3", "kick.mp3", "laugh-1.mp3", "laugh-2.mp3", "snare.mp3"];
+var beat = ["G.mp3", "snare.mp3", "hihat.mp3"];
 function playSample(samplenumber) {
     var allsounds = new Audio(sounds1[samplenumber]);
     allsounds.play();
@@ -16,7 +17,6 @@ document.querySelector(".button7").addEventListener("click", function () { playS
 document.querySelector(".button8").addEventListener("click", function () { playSample(7); });
 document.querySelector(".button9").addEventListener("click", function () { playSample(8); });
 //Beat als Loop
-var beat = ["G.mp3", "snare.mp3", "drum.mp3", "hihat.mp3"];
 var meinInterval;
 function defbeat() {
     var meineZaehlervariable = 0;
@@ -26,7 +26,7 @@ function defbeat() {
         var playAudio = new Audio(beat[meineZaehlervariable]);
         playAudio.play();
         meineZaehlervariable++;
-        if (meineZaehlervariable >= 3) {
+        if (meineZaehlervariable >= beat.length) {
             meineZaehlervariable = 0;
         }
     }, 500);
@@ -48,7 +48,7 @@ document.querySelector("#trash").addEventListener("click", function () { loeschb
 function loeschbeat() {
     beat.length = 0;
 }
-// Record - Icon - funktioniert nciht, aber ich hab alles mögliche ausprobiert, und es funktioniert einfach nicht://
+// Record - Icon
 var recording = false;
 function microfon() {
     if (recording == false) {
@@ -58,7 +58,7 @@ function microfon() {
         recording = false;
     }
     document.querySelector("#record").addEventListener("click", microfon);
-    //inspiriert von Emma, Markus, Hannah
+    //inspiriert von Emma, Markus
 }
-//inspiriert von Emma, Markus, Hannah
+//inspiriert von Emma, Markus
 //# sourceMappingURL=sound.js.map

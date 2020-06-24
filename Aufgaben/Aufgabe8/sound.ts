@@ -1,5 +1,5 @@
 var sounds1 = ["A.mp3", "C.mp3", "F.mp3", "G.mp3", "hihat.mp3", "kick.mp3", "laugh-1.mp3", "laugh-2.mp3", "snare.mp3"];
-
+var beat: string[] = ["G.mp3", "snare.mp3", "hihat.mp3"];
 function playSample(samplenumber: number): void {
     var allsounds: HTMLAudioElement = new Audio(sounds1[samplenumber]);
     allsounds.play();
@@ -18,9 +18,11 @@ document.querySelector(".button7").addEventListener("click", function () { playS
 document.querySelector(".button8").addEventListener("click", function () { playSample(7); });
 document.querySelector(".button9").addEventListener("click", function () { playSample(8); });
 
+
+
 //Beat als Loop
-var beat: string[] = ["G.mp3", "snare.mp3", "drum.mp3", "hihat.mp3"];
-var meinInterval: number;
+
+var meinInterval: number; 
 function defbeat(): void {
     var meineZaehlervariable: number = 0;
     console.log(meineZaehlervariable);
@@ -30,10 +32,12 @@ function defbeat(): void {
         var playAudio: HTMLAudioElement = new Audio(beat[meineZaehlervariable]);
         playAudio.play();
         meineZaehlervariable++;
-        if (meineZaehlervariable >= 3) {
+        if (meineZaehlervariable >= beat.length) {
             meineZaehlervariable = 0;
         }
     },                         500);
+
+    
 }
 
 //Playbutton mit Stopbutton
@@ -57,6 +61,7 @@ function loeschbeat(): void {
 
 // Record - Icon
 var recording: boolean = false;
+
 function microfon(): void {
     if (recording == false) {
         recording = true;
@@ -64,9 +69,9 @@ function microfon(): void {
     else {
         recording = false;
     }
-  
 
+  
     document.querySelector("#record").addEventListener("click", microfon);
 
 
-//inspiriert von Emma, Markus, Hannah
+//inspiriert von Emma, Markus
