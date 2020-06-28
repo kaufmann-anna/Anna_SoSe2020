@@ -43,6 +43,3 @@ drawList();
 
 
 
-
-
-//zusammengearbeitet mit Dino

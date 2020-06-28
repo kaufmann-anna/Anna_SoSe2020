@@ -25,5 +25,4 @@ function addNewElement() {
     drawList();
 }
 drawList();
-//zusammengearbeitet mit Dino
 //# sourceMappingURL=aufgabe9.js.map
