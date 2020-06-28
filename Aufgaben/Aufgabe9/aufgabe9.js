@@ -8,9 +8,10 @@ function drawList() {
         //Delete
         document.querySelector(".fa-trash-alt").addEventListener("click", function () {
             console.log("entfernen");
-            myList.slice(index);
             var element = document.getElementById("liste");
             element.parentNode.removeChild(element);
+            myList[index] = ("");
+            myList.splice(index);
         });
     }
     //Zählen der todos/ Inspiriert von Moritz
