@@ -8,9 +8,12 @@ function drawList() {
         //Delete
         document.querySelector(".fa-trash-alt").addEventListener("click", function () {
             console.log("entfernen");
+            myList.slice(index);
+            var element = document.getElementById("liste");
+            element.parentNode.removeChild(element);
         });
     }
-    //Zählen der todos
+    //Zählen der todos/ Inspiriert von Moritz
     var insgesamt = document.querySelector("#alletodos");
     insgesamt.innerHTML = "Insgesamt zu erledigen:" + myList.length;
 }
@@ -22,5 +25,5 @@ function addNewElement() {
     drawList();
 }
 drawList();
-//Delete an item -> funktioniert nicht:/
+//zusammengearbeitet mit Dino
 //# sourceMappingURL=aufgabe9.js.map
