@@ -135,7 +135,7 @@ function updateCounter(): void {
         }
     }
     erledigtDOMElement.innerHTML = counterchecked + " bereits erledigt";
-    offenDOMElement.innerHTML = nochzuerledigen + "noch offen";
+    offenDOMElement.innerHTML = nochzuerledigen + " noch offen";
 }
 
 /**
@@ -216,3 +216,6 @@ function deleteTodo(index: number): void {
      */
     drawListToDOM();
 }
+
+
+

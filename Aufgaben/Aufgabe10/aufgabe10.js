@@ -118,7 +118,7 @@ function updateCounter() {
         }
     }
     erledigtDOMElement.innerHTML = counterchecked + " bereits erledigt";
-    offenDOMElement.innerHTML = nochzuerledigen + "noch offen";
+    offenDOMElement.innerHTML = nochzuerledigen + " noch offen";
 }
 /**
  * Ein neues ToDo wird folgendermaßen erstellt:
